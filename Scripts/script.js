@@ -17,7 +17,7 @@ function computerTurn(){
 
 function playerTurn()
 {
-    return prompt("Enter your choice")
+    return prompt("Choose Rock, Paper, or Scissors").toLowerCase();
 
 }
 
